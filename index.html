@@ -34,7 +34,8 @@
                                     <span class="mbr-section-title display-2 text-center pad-r">ALGO </span>
                                     <span class="mbr-section-title display-2 element typedextHeader15-d" adress="typedextHeader15-d" firstel="UNA PALABRA" secondel="FRASE PARA ALGUIEN" thirdel="OTRA COSA MAS" fourthel="COMO ESTAS" typespeed="60"></span><br>
                                     <span class="mbr-section-title display-2 text-center pad-r">EMPIEZA!</span>       
-                            </div>
+                                    <span class="mbr-section-title display-2 text-center otro">EMPIEZA!</span>       
+                            </div
                         </div>
 
                  
@@ -53,14 +54,19 @@
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/dropdown/js/script.min.js"></script>
-  <script src="assets/touch-swipe/jquery.touch-swipe.min.js"></script>
   <script src="assets/typed/typed.min.js"></script>
-  <script src="assets/countdown/jquery.countdown.min.js"></script>
   <script src="assets/theme/js/script.js"></script>
   <script src="assets/mobirise3-blocks-plugin/js/script.js"></script>
-  <script src="assets/formoid/formoid.min.js"></script>
-  
+  <script src="assets/js/main.js"></script>
+
+  <script>
+        $(".otro").typed({
+            strings: ["^1000 This is a <strong>Test</strong> <br>and another line.", "Segundo texto de prueba"],
+            typeSpeed: 50,
+            loop: false,
+            contentType: 'html'
+        });
+  </script>
   
 </body>
 </html>

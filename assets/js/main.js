@@ -1,4 +1,7 @@
-'use strict';
+
+//import {Typed} from './typed/typed';
+//const myModule = require('./mymodule');
+//include("js/second_file.js");
 
 let MainController = (function(){
   var selectors = {
@@ -10,9 +13,14 @@ let MainController = (function(){
       
  };
 
+ var typed = function(){
+   console.log("Typed..");
+   
+ };
  var start = function(){
  console.log("Start controller js");
  bindEvents();
+ typed();
 
  };
  return{

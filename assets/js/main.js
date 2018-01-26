@@ -15,6 +15,12 @@ let MainController = (function(){
 
  var typed = function(){
    console.log("Typed..");
+    $(".otro").typed({
+        strings: ["^1000 This is a <strong>Test</strong> <br>and another line.", "Segundo texto de prueba"],
+        typeSpeed: 50,
+        loop: false,
+        contentType: 'html'
+    });
    $(".puntos").typed({
     strings: ["..."],
     showCursor: false,
@@ -25,7 +31,7 @@ let MainController = (function(){
     });
     $(".otro").typed({
       strings: ["UNA MUJER MÁS QUE HERMOSA.", "MUJER INTELIGENTE", "MUJER QUE CAUTIVA", "MUJER QUE ENCANTA", "CON SENTIMIENTOS INCOMPARABLES",
-      "CON UNA PERSONALIDAD MUY LINDA", "¿Y QUIEN ES LA MUJER QUE HABLO?", "SÓLO PODRÍAS SER UNA...", "ANA KAREN SUÁREZ CASTRO"],
+      "CON UNA PERSONALIDAD MUY LINDA", "¿Y QUIÉN ES LA MUJER QUE HABLO?", "SÓLO PODRÍA SER UNA...", "ANA KAREN SUÁREZ CASTRO"],
       typeSpeed: 130,
       loop: false,
       contentType: 'html'

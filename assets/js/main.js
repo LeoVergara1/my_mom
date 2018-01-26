@@ -10,7 +10,7 @@ let MainController = (function(){
  },
  bindEvents = function bindEvents(){
       console.log("Satrt bindEvents");
-      
+
  };
 
  var typed = function(){
@@ -38,14 +38,14 @@ let MainController = (function(){
 
   });
   $(".final").typed({
-    strings: ["!TE QUIERO BONITA¡"],
+    strings: ["¡TE QUIERO BONITA!"],
     startDelay: 50000,
     showCursor: false,
     typeSpeed: 200,
     loop: false,
     contentType: 'html'
     });
-   
+
  };
  var start = function(){
  console.log("Start controller js");

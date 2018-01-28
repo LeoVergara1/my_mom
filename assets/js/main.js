@@ -38,7 +38,7 @@ let MainController = (function(){
 
   });
   $(".final").typed({
-    strings: ["!TE QUIERO BONITA¡"],
+    strings: ["¡TE QUIERO BONITA!"],
     startDelay: 50000,
     showCursor: false,
     typeSpeed: 200,

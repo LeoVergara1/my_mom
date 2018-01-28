@@ -10,7 +10,7 @@ let MainController = (function(){
  },
  bindEvents = function bindEvents(){
       console.log("Satrt bindEvents");
-      
+
  };
 
  var typed = function(){
@@ -31,7 +31,7 @@ let MainController = (function(){
     });
     $(".otro").typed({
       strings: ["UNA MUJER MÁS QUE HERMOSA.", "MUJER INTELIGENTE", "MUJER QUE CAUTIVA", "MUJER QUE ENCANTA", "CON SENTIMIENTOS INCOMPARABLES",
-      "CON UNA PERSONALIDAD MUY LINDA", "¿Y QUIÉN ES LA MUJER QUE HABLO?", "SÓLO PODRÍA SER UNA...", "ANA KAREN SUÁREZ CASTRO"],
+      "CON UNA PERSONALIDAD MUY LINDA", "¿Y QUIÉN ES LA MUJER DE LA QUE HABLO?", "SÓLO PODRÍA SER UNA...", "ANA KAREN SUÁREZ CASTRO"],
       typeSpeed: 130,
       loop: false,
       contentType: 'html'
@@ -45,7 +45,7 @@ let MainController = (function(){
     loop: false,
     contentType: 'html'
     });
-   
+
  };
  var start = function(){
  console.log("Start controller js");

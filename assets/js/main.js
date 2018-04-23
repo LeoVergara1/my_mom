@@ -30,15 +30,20 @@ let MainController = (function(){
     contentType: 'html'
     });
     $(".otro").typed({
-      strings: ["UNA MUJER MÁS QUE HERMOSA.", "MUJER INTELIGENTE", "MUJER QUE CAUTIVA", "MUJER QUE ENCANTA", "CON SENTIMIENTOS INCOMPARABLES",
-      "CON UNA PERSONALIDAD MUY LINDA", "¿Y QUIÉN ES LA MUJER DE LA QUE HABLO?", "SÓLO PODRÍA SER UNA...", "ANA KAREN SUÁREZ CASTRO"],
-      typeSpeed: 130,
+      strings: ["Gracias a ti soy como soy, gracias a que me tuviste en tu vientre 9 meses diste a luz un niño que el día de hoy ya es hombre el cual te sientes orgullosa",
+      "y donde quiera que estés nunca olvides que te amamos tus hijos y siempre vamos a estar contigo en las buenas o malas te amamos mama att: brandon y jovany",
+     "Porque me has regalado todo tu amor, siempre me has curado todas mis heridas, tanto físicas como del alma, limpiaste mis lágrimas en cada arrebato de tristeza",
+      "sólo sé que no me alcanzará la vida para pagarte todo lo que has hecho por nosotros. Y en este día quisiera celebrar tu cumpleaños a tu lado,"
+      , "y pasarlo genial. Felicitaciones en tu día, mamá. Me has enseñado tantas cosas, dedicaste tanto tiempo para mí,", 
+      "te has convertido en mi inspiración, deseo con esta frase que pases un excelente día en este cumpleaños. Recibe esta frase con mi saludo especial para celebrar tu cumpleaños",
+     " eres la mejor persona que he conocido, gran ejemplo de fortaleza y amor. Feliz cumpleaños"],
+      typeSpeed: 80,
       loop: false,
       contentType: 'html'
 
   });
   $(".final").typed({
-    strings: ["¡TE QUIERO BONITA!"],
+    strings: ["¡TE AMAMOS MAMÁ!, FELIZ CUMPLEAÑOS JEJEJE :)"],
     startDelay: 50000,
     showCursor: false,
     typeSpeed: 200,
